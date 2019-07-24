@@ -1,0 +1,23 @@
+{
+  "name": "birba-debug",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --inspect server.js"
+  },
+  "keywords": [],
+  "author": "Christophe Porteneuve <christophe@delicious-insights.com> (https://delicious-insights.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "nodemonConfig": {
+    "verbose": false,
+    "ignore": [
+      "node_modules"
+    ],
+    "watch": [
+      "*.js"
+    ]
+  }
+}
